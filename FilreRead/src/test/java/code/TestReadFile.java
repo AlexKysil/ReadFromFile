@@ -20,6 +20,7 @@ public class TestReadFile extends StartFinishFixture {
                 System.out.println(sUrl);
             }
         }
+        System.out.println();
     }
 
     @Test
@@ -37,7 +38,8 @@ public class TestReadFile extends StartFinishFixture {
                     if(!element.isEnabled()){
                         continue;
                     }else{
-                        System.out.println("Site is: " + sUrl + "\n" + "type is: " + element.getAttribute("type"));
+                        String xPath = "//input[@type='" + element.getAttribute("type") + "']";
+                        Xpathmap.put(xPath, sUrl);
                     }
                 }
             }
