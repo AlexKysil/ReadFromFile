@@ -10,7 +10,7 @@ public class ReadFile {
 
     public ReadFile(){
         String path = new File("").getAbsolutePath();
-        wayToTheFile = path + "\\FilreRead\\src\\test\\java\\SCR_Files\\websites.txt";
+        wayToTheFile = path + "\\src\\test\\java\\SCR_Files\\websites.txt";
         readFileAndWriteToList();
     }
     ReadFile(String wayToTheFile){
