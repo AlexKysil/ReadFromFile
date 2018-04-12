@@ -11,6 +11,7 @@ public class ReadFile {
     public ReadFile(){
         String path = new File("").getAbsolutePath();
         wayToTheFile = path + "\\FilreRead\\src\\test\\java\\SCR_Files\\websites.txt";
+        readFileAndWriteToList();
     }
     ReadFile(String wayToTheFile){
         this.wayToTheFile = wayToTheFile;
@@ -53,14 +54,15 @@ public class ReadFile {
     }catch(IOException e){
         e.printStackTrace();
     }
-
-
+       String[] list = new String[0];
     try{
-        listOFWebSites.add(new String(content,"Cp1251"));
+       list = new String(content,"Cp1251").split("\n");
     }catch (UnsupportedEncodingException e){
         e.printStackTrace();
     }
-
+        for(String s : list){
+        listOFWebSites.add(s);
+        }
     }
 
 }
