@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ReadFile {
 
     private String wayToTheFile;
-    private static ArrayList<String> listOFWebSites;
+    private static ArrayList<String> listOFWebSites = new ArrayList<String>();
 
     public ReadFile(){
         String path = new File("").getAbsolutePath();
@@ -54,12 +54,13 @@ public class ReadFile {
         e.printStackTrace();
     }
 
-    String[] lines = new String[0];
+
     try{
-        lines = new String(content,"Cp1251").split("\n");
+        listOFWebSites.add(new String(content,"Cp1251"));
     }catch (UnsupportedEncodingException e){
         e.printStackTrace();
     }
-        
+
     }
+
 }
