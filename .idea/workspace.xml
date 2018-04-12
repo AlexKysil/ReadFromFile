@@ -26,33 +26,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFromFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFile.java">
+      <file leaf-file-name="ReadFromFileTestClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFileTestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="552">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1046#1058#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
+            <state relative-caret-position="323">
               <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#194#202#0" expanded="true" />
                 <element signature="method#ReadFile#0;class#ReadFile#0" expanded="false" />
+                <element signature="method#readFileAndWriteToList#0;class#ReadFile#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartFinishFixture.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="websites.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/SCR_Files/websites.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="88" lean-forward="false" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartFinishFixture.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/StartFinishFixture.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -90,6 +102,8 @@
         <option value="$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/StartFinishFixture.java" />
         <option value="$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java" />
         <option value="$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFile.java" />
+        <option value="$PROJECT_DIR$/FilreRead/src/test/java/SCR_Files/websites.txt" />
+        <option value="$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFileTestClass.java" />
       </list>
     </option>
   </component>
@@ -256,15 +270,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReadFromFile">
-    <configuration default="false" name="ReadFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration default="false" name="ReadFromFileTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="code.ReadFromFile" />
+      <option name="MAIN_CLASS_NAME" value="code.ReadFromFileTestClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -277,7 +291,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ReadFromFile" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReadFromFileTestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="code.*" />
@@ -289,7 +303,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.ReadFromFile" />
+      <option name="MAIN_CLASS_NAME" value="code.ReadFromFileTestClass" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -515,13 +529,13 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.ReadFromFile" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ReadFromFile" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ReadFromFileTestClass" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ReadFromFileTestClass" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ReadFromFile" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReadFromFile" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ReadFromFileTestClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReadFromFileTestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -542,32 +556,32 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadFromFile - 2018.04.12 at 15h 38m 19s.xml">
-      <configuration name="ReadFromFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadFromFile - 2018.04.12 at 15h 39m 14s.xml">
-      <configuration name="ReadFromFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadFromFile - 2018.04.12 at 15h 41m 37s.xml">
-      <configuration name="ReadFromFile" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadFromFile - 2018.04.12 at 15h 47m 05s.xml">
-      <configuration name="ReadFromFile" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ReadFromFile - 2018.04.12 at 15h 50m 21s.xml">
       <configuration name="ReadFromFile" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ReadFromFile_checkWebSitesList - 2018.04.12 at 15h 37m 08s.xml">
-      <configuration name="ReadFromFile.checkWebSitesList" configurationId="TestNG" />
+    <history-entry file="ReadFromFile - 2018.04.12 at 16h 00m 00s.xml">
+      <configuration name="ReadFromFile" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ReadFromFile_checkWebSitesList - 2018.04.12 at 15h 37m 34s.xml">
-      <configuration name="ReadFromFile.checkWebSitesList" configurationId="TestNG" />
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 16h 00m 45s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ReadFromFile_checkWebSitesList - 2018.04.12 at 15h 37m 55s.xml">
-      <configuration name="ReadFromFile.checkWebSitesList" configurationId="TestNG" />
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 16h 01m 18s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ReadFromFile_checkWebSitesList - 2018.04.12 at 15h 41m 01s.xml">
-      <configuration name="ReadFromFile.checkWebSitesList" configurationId="TestNG" />
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 16h 01m 56s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 16h 07m 06s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 16h 57m 51s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 17h 08m 58s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ReadFromFileTestClass - 2018.04.12 at 17h 09m 19s.xml">
+      <configuration name="ReadFromFileTestClass" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ReadFromFile_checkWebSitesList - 2018.04.12 at 15h 47m 27s.xml">
       <configuration name="ReadFromFile.checkWebSitesList" configurationId="TestNG" />
@@ -586,7 +600,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -642,7 +656,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -659,14 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/SCR_Files/websites.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FilreRead/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -675,12 +689,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFile.java">
+    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#194#202#0" expanded="true" />
+            <element signature="method#ReadFile#0;class#ReadFile#0" expanded="false" />
+            <element signature="method#readFileAndWriteToList#0;class#ReadFile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/SCR_Files/websites.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="88" lean-forward="false" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/ReadFromFileTestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1046#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,18 +729,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
-            <element signature="method#ReadFile#0;class#ReadFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
