@@ -6,7 +6,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -59,6 +58,7 @@ public class TestReadFile extends StartFinishFixture {
         for(Map.Entry<String, String> entry : Xpathmap.entrySet()){
             System.out.println("Website: " + entry.getValue() + "\n" + "has next input: " + entry.getKey());
         }
+        System.out.println();
     }
 
 
@@ -75,5 +75,6 @@ public class TestReadFile extends StartFinishFixture {
             for(Map.Entry<String, String> entry : titlesMap.entrySet()){
                 System.out.println("Website: " + entry.getValue() + "\n" + "Has next title: " + entry.getKey());
             }
+            System.out.println();
     }
 }

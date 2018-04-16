@@ -2,7 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/FilreRead/src/test/java/helpMethods/ReadFile.java" line="59" />
-    <bookmark url="file://$PROJECT_DIR$/FilreRead/src/test/java/code/TestReadFile.java" line="49" />
+    <bookmark url="file://$PROJECT_DIR$/FilreRead/src/test/java/code/TestReadFile.java" line="48" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33e3c5a-e1cd-4d3d-8b5c-4c3b59fdc216" name="Default" comment="" />
@@ -42,14 +42,15 @@
       <file leaf-file-name="TestReadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/TestReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="75" column="112" lean-forward="false" selection-start-line="75" selection-start-column="112" selection-end-line="75" selection-end-column="112" />
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#checkListLinks#0;class#TestReadFile#0" expanded="false" />
                 <element signature="method#checkSitesForXpath#0;class#TestReadFile#0" expanded="false" />
-                <element signature="e#1086#1102#0" expanded="true" />
-                <element signature="e#1281#1293#0" expanded="true" />
-                <element signature="e#2464#2480#0" expanded="true" />
+                <element signature="e#1028#1044#0" expanded="true" />
+                <element signature="e#1223#1235#0" expanded="true" />
+                <element signature="method#checkWebSiteTitle#0;class#TestReadFile#0" expanded="false" />
+                <element signature="e#2436#2452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -623,9 +624,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestReadFile - 2018.04.12 at 17h 49m 04s.xml">
-      <configuration name="TestReadFile" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestReadFile - 2018.04.12 at 17h 50m 55s.xml">
       <configuration name="TestReadFile" configurationId="TestNG" />
     </history-entry>
@@ -651,6 +649,9 @@
       <configuration name="TestReadFile" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestReadFile - 2018.04.16 at 14h 14m 09s.xml">
+      <configuration name="TestReadFile" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestReadFile - 2018.04.16 at 14h 17m 20s.xml">
       <configuration name="TestReadFile" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1110,14 +1111,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FilreRead/src/test/java/code/TestReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="75" column="112" lean-forward="false" selection-start-line="75" selection-start-column="112" selection-end-line="75" selection-end-column="112" />
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#checkListLinks#0;class#TestReadFile#0" expanded="false" />
             <element signature="method#checkSitesForXpath#0;class#TestReadFile#0" expanded="false" />
-            <element signature="e#1086#1102#0" expanded="true" />
-            <element signature="e#1281#1293#0" expanded="true" />
-            <element signature="e#2464#2480#0" expanded="true" />
+            <element signature="e#1028#1044#0" expanded="true" />
+            <element signature="e#1223#1235#0" expanded="true" />
+            <element signature="method#checkWebSiteTitle#0;class#TestReadFile#0" expanded="false" />
+            <element signature="e#2436#2452#0" expanded="true" />
           </folding>
         </state>
       </provider>
