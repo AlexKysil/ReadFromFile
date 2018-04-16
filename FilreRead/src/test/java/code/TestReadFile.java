@@ -13,6 +13,7 @@ import java.util.Map;
 
 public class TestReadFile extends StartFinishFixture {
 
+    // This method checks the list of link if they have dot, and if they don`t it delete it from the list
     @Test
     public void checkListLinks(){
         for(String sUrl : webSitesList){
@@ -25,14 +26,19 @@ public class TestReadFile extends StartFinishFixture {
         System.out.println();
     }
 
+    // This method checks available links, openes them on browser, and find all inputs
+    // then check if inputs visible and enable and display them
     @Test
     public void checkSitesForXpath() {
         HashMap<String, String> Xpathmap = new HashMap<String, String>();
 
+
+        // finds all inputs,
         for(String sUrl : webSitesList){
             driver.navigate().to(sUrl);
             ArrayList<WebElement> inputElements = new ArrayList<WebElement> (driver.findElements(By.xpath("//input")));
 
+            // checks if input is visibble and enable
             for(WebElement element : inputElements){
                 if(!element.isDisplayed()){
                     continue;
@@ -40,16 +46,15 @@ public class TestReadFile extends StartFinishFixture {
                     if(!element.isEnabled()){
                         continue;
                     }else{
-                        String xPath = "//input[@type='" + element.getAttribute("type") + "']";
-                        Xpathmap.put(xPath, sUrl);
+                        String xPath = "//input[@type='" + element.getAttribute("type") + "']"; //creates the xpath for correct input
+                        Xpathmap.put(xPath, sUrl);                                                 // puts the xpath for correct input and site to hashmap
                     }
                 }
             }
         }
-
+                // this method displays the list of correct xpathes and site where they located
         for(Map.Entry<String, String> entry : Xpathmap.entrySet()){
-            driver.navigate().to(entry.getValue());
-            driver.findElement(By.xpath(entry.getKey()));
+            System.out.println("Website: " + entry.getValue() + "\n" + "has next input: " + entry.getKey());
         }
     }
 }

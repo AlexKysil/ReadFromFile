@@ -3,6 +3,7 @@ package helpMethods;
 import java.io.*;
 import java.util.ArrayList;
 
+// this is a help class to read file
 public class ReadFile {
 
     private String wayToTheFile;
