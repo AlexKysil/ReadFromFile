@@ -2,11 +2,14 @@ package code;
 
 
 import helpMethods.StartFinishFixture;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -56,5 +59,21 @@ public class TestReadFile extends StartFinishFixture {
         for(Map.Entry<String, String> entry : Xpathmap.entrySet()){
             System.out.println("Website: " + entry.getValue() + "\n" + "has next input: " + entry.getKey());
         }
+    }
+
+
+    // this is test for parcing website`s title
+    @Test
+    public void checkWebSiteTitle() throws IOException {
+        HashMap<String, String> titlesMap = new HashMap<String, String>();
+
+            for(String sUrl : webSitesList){
+                Document doc = Jsoup.connect(sUrl).get();
+                titlesMap.put(doc.title(), sUrl);
+            }
+
+            for(Map.Entry<String, String> entry : titlesMap.entrySet()){
+                System.out.println("Website: " + entry.getValue() + "\n" + "Has next title: " + entry.getKey());
+            }
     }
 }
